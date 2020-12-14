@@ -1,0 +1,13 @@
+code: swaggertest-bundle
+description: This is the swaggertest bundle
+
+components:
+  plugins:
+    - plugins/swaggertest-plugin.yaml
+
+  widgets:
+    - ui/widgets/street/tableWidget/street-table-widget-descriptor.yaml
+    - ui/widgets/street/detailsWidget/street-details-widget-descriptor.yaml
+    - ui/widgets/street/formWidget/street-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
