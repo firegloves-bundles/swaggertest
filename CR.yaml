@@ -1,0 +1,29 @@
+---
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: swaggertest
+  namespace: fire
+  labels:
+    plugin: 'true'
+    widget: 'true'
+spec:
+  details:
+    name: swaggertest-bundle
+    description: This is the swaggertest bundle
+    dist-tags:
+      latest: v0.0.2
+    versions:
+      - v0.0.1
+      - v0.0.2
+  tags:
+    - version: v0.0.1
+      shasum: 287ca3802acd8df58f49f094798036a3dc5b6707
+      integrity: 287ca3802acd8df58f49f094798036a3dc5b6707
+      tarball: 'https://github.com/firegloves-bundles/swaggertest.git'
+    - version: v0.0.2
+      description: 'with ingressPath'
+      shasum: 287ca3802acd8df58f49f094798036a3dc5b6707
+      integrity: 287ca3802acd8df58f49f094798036a3dc5b6707
+      tarball: 'https://github.com/firegloves-bundles/swaggertest.git'
+

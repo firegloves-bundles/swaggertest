@@ -1,6 +1,7 @@
 image: lcorsettientando/swaggertest:0.0.1-SNAPSHOT
 dbms: none
 healthCheckPath: "/management/health"
+ingressPath: "/swaggerino.io/swaggertest"
 roles:
   - "swaggertest-admin"
   - "street-admin"
